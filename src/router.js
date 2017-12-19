@@ -9,5 +9,5 @@ const routers = [
         name: 'Sidebar',
         component: (resolve) => require(['./views/Sidebar.vue'], resolve)
     },
-];
-export default routers;
+]
+export default routers
