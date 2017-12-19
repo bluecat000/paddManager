@@ -40,16 +40,16 @@
 }
 </style>
 <template>
-    <div>
-        <div class="layout-ceiling">
-            <div class="layout-ceiling-main">
-                <a href="#">Sign up</a> |
-                <a href="#">Help Center</a> |
-                <a href="#">Security</a> |
-                <a href="#">Service</a>
-            </div>
-        </div>
+  <div>
+    <div class="layout-ceiling">
+      <div class="layout-ceiling-main">
+        <a href="#">Sign up</a> |
+        <a href="#">Help Center</a> |
+        <a href="#">Security</a> |
+        <a href="#">Service</a>
+      </div>
     </div>
+  </div>
 </template>
 <script>
 export default {};

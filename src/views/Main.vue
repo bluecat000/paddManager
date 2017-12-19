@@ -50,29 +50,29 @@
 }
 </style>
 <template>
-    <div class="layout" :class="{'layout-hide-text': spanLeft < 5}">
-        <Header/>
-        <Row type="flex">
-            <Sidebar/>
-            <Col :span="spanRight">
-                <div class="layout-breadcrumb">
-                    <Breadcrumb>
-                        <BreadcrumbItem href="#">Index</BreadcrumbItem>
-                        <BreadcrumbItem href="#">Apps</BreadcrumbItem>
-                        <BreadcrumbItem>App</BreadcrumbItem>
-                    </Breadcrumb>
-                </div>
-                <div class="layout-content">
-                    <div class="layout-content-main">
-                      <router-view></router-view>
-                      </div>
-                </div>
-                <div class="layout-copy">
-                    <!-- 2011-2016 &copy; TalkingData -->
-                </div>
-            </Col>
-        </Row>
-    </div>
+  <div class="layout" :class="{'layout-hide-text': spanLeft < 5}">
+    <Header/>
+    <Row type="flex">
+      <Sidebar/>
+      <Col :span="spanRight">
+      <div class="layout-breadcrumb">
+        <Breadcrumb>
+          <BreadcrumbItem href="#">Index</BreadcrumbItem>
+          <BreadcrumbItem href="#">Apps</BreadcrumbItem>
+          <BreadcrumbItem>App</BreadcrumbItem>
+        </Breadcrumb>
+      </div>
+      <div class="layout-content">
+        <div class="layout-content-main">
+          <router-view></router-view>
+        </div>
+      </div>
+      <div class="layout-copy">
+        <!-- 2011-2016 &copy; TalkingData -->
+      </div>
+      </Col>
+    </Row>
+  </div>
 </template>
 <script>
 import Sidebar from "./Sidebar.vue";
