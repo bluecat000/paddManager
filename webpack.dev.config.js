@@ -17,12 +17,12 @@ module.exports = merge(webpackBaseConfig, {
         filename: '[name].js',
         chunkFilename: '[name].chunk.js'
     },
-    devServer: {
-        historyApiFallback: true,
-        hot: true,
-        compress: true,
-        host: 'www.webmanager.com',
-    },
+    // devServer: {
+    //     historyApiFallback: true,
+    //     hot: true,
+    //     compress: true,
+    //     host: 'www.webmanager.com',
+    // },
     plugins: [
         new ExtractTextPlugin({
             filename: '[name].css',
